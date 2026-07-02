@@ -53,7 +53,6 @@ async def scrape_box_office():
         "india_gross": "₹15.10 Cr",
         "worldwide_gross": "₹22.50 Cr"
     }
-
 async def scrape_ticketing_data():
     """Scrapes real national chain data from Sacnilk Advance Booking Tracker"""
     url = "https://www.sacnilk.com/news/Alpha_2026_Advance_Booking_Report"
@@ -93,6 +92,7 @@ async def scrape_ticketing_data():
         },
         "sales_velocity": "Tracking..."
     }
+
 
     
 
